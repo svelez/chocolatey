@@ -19,7 +19,7 @@
     <copyright>2013 Autodesk Inc</copyright>
     <licenseUrl>http://usa.autodesk.com/adsk/servlet/index?siteID=123112&amp;id=10235425</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/autodesk.fusion360/autodesk.fusion360.png</iconUrl>-->
+    <iconUrl>https://raw.github.com/svelez/chocolatey-packages-owner-svelez/master/autodesk-fusion360/icon_128x128.png</iconUrl>
     <dependencies>
       <dependency id="Chocolatey" version="0.9.8.17"/>
     </dependencies>
