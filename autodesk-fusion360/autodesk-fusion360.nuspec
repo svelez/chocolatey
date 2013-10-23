@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>autodesk-fusion360</id>
+    <title>Autodesk Fusion 360</title>
+    <version>1.8.674</version>
+    <authors>Autodesk Inc</authors>
+    <owners>Steven Velez</owners>
+    <summary>
+	    Flexible Computer Aided Design tool.
+    </summary>
+    <description>
+	    Fusion 360 has all the design capabilities you're likely to need, including curves, sketches, surfaces, solids, features, and assembly modeling.
+	    Intuitively pull, push, and drag your design into the perfect shape, then add the mechanical precision you need to complete your design.
+	    And with Fusion 360, you are able to work with all the formats you're familiar with from your Mac or PC. Get a head start by simply bringing in your existing designs.
+    </description>
+    <projectUrl>http://fusion360.autodesk.com</projectUrl>
+    <tags>autodesk.fusion360 fusion360 surface solid autodesk design cad modeling</tags>
+    <copyright>2013 Autodesk Inc</copyright>
+    <licenseUrl>http://usa.autodesk.com/adsk/servlet/index?siteID=123112&amp;id=10235425</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/autodesk.fusion360/autodesk.fusion360.png</iconUrl>-->
+    <dependencies>
+      <dependency id="Chocolatey" version="0.9.8.17"/>
+    </dependencies>
+    <releaseNotes>
+	    Initial release of the chocolatey package to install Autodesk Fusion
+	    360.  Will always install whichever version of fusion is most current
+	    at the time the package is executed
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
