@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>autodesk-Sim360</id>
+    <title>Autodesk Sim 360</title>
+    <version>1.8.679</version>
+    <authors>Autodesk Inc</authors>
+    <owners>Steven Velez</owners>
+    <summary>Powerful mechanical analysis tool</summary>
+    <description>
+        Autodesk® Sim 360™ software combines core functionality of our desktop Simulation with powerful 
+        cloud-based services. Sim 360 is the next-generation solution for simulation, entirely 
+        cloud-based and lightweight, for anywhere, anytime analysis. Sim 360™ Pro and Sim 360™ Moldflow® 
+        software offer cloud-enabled solving and local solve for flexible simulation workflow. 
+    </description>
+    <projectUrl>http://www.autodesk.com/products/sim-360/overview</projectUrl>
+    <tags>autodesk.Sim360 sim360 analysis</tags>
+    <copyright>2013 Autodesk Inc</copyright>
+    <licenseUrl>http://usa.autodesk.com/adsk/servlet/index?siteID=123112&amp;id=10235425</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/svelez/chocolatey-packages-owner-svelez/master/autodesk-sim360/icon_128x128.png</iconUrl>
+    <dependencies>
+      <dependency id="Chocolatey" version="0.9.8.17"/>
+    </dependencies>
+    <releaseNotes>
+  	    Initial release of the chocolatey package to install Autodesk Sim
+	    360.  Will always install whichever version of fusion is most current
+	    at the time the package is executed
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="..\Common\**" target="Common" />
+  </files>
+</package>
