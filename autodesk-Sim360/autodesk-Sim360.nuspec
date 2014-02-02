@@ -3,7 +3,7 @@
   <metadata>
     <id>autodesk-Sim360</id>
     <title>Autodesk Sim 360</title>
-    <version>2.0.1043.2</version>
+    <version>2.0.1045</version>
     <authors>Autodesk Inc</authors>
     <owners>Steven Velez</owners>
     <summary>Powerful mechanical analysis tool</summary>
@@ -23,8 +23,7 @@
       <dependency id="Chocolatey" version="0.9.8.17"/>
     </dependencies>
     <releaseNotes>
-  	    Fixed some minor reference issues in the package.  Will always install whichever 
-            version of Sim 360 is most current that the time the package is executed.
+  	    Updating package to drive pulling build 2.0.145
     </releaseNotes>
   </metadata>
   <files>
