@@ -1,30 +1,63 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>autodesk-fusion360</id>
     <title>Autodesk Fusion 360</title>
-    <version>2.0.1149</version>
+    <version>2.0.1351</version>
     <authors>Autodesk Inc</authors>
     <owners>Steven Velez</owners>
     <summary>
-	    Flexible Computer Aided Design tool.
+	    Flexible, connected Computer Aided Design tool.
     </summary>
     <description>
-	    Fusion 360 has all the design capabilities you're likely to need, including curves, sketches, surfaces, solids, features, and assembly modeling.
-	    Intuitively pull, push, and drag your design into the perfect shape, then add the mechanical precision you need to complete your design.
-	    And with Fusion 360, you are able to work with all the formats you're familiar with from your Mac or PC. Get a head start by simply bringing in your existing designs.
+Autodesk® Fusion 360 is a professional 3D CAD/CAM solution for product designers and engineers. With Fusion 360 youll have everything you need to bring product to life, from conceptual design, detailed engineering, machining, built-in sharing, automated versioning, and much more.  Try Fusion 360 free for 30-days.
+
+Features
+--------
+ * Conceptual Design - Explore design ideas and create organic shapes with T-Splines push-pull commands.
+ * 3D Surface &amp; Solid Modeling  Create functional models with flexible real-time direct solid modeling and feature-based solid modeling complete with assembly tools.
+ * History Based Modeling  Track and make changes to your design using your design timeline, as edits are made the model automatically updates to reflect the changes.
+ * Model from Scanned Designs - Import OBJ or STL bodies as mesh models and easily create custom designs with object snapping to the mesh surface.
+ * 3D Printing - Prepare your designs for 3D printing with Autodesk Meshmixer within Fusion 360. Preview the mesh structure, make pre-print refinements, and never use another 3D print utility again.
+ * Assembly &amp; Motion Studies - Assemble components. Create relationships, animate &amp; simulate motion, and review the fit and function of your design.
+ * Form Inspection &amp; Analysis - Validate the quality of your model with curvature comb analysis, zebra analysis, draft analysis, curvature mapping, interference checking, assembly motion studies and more.
+ * File Translation, Import &amp; Export - Import and export design files with unlimited CAD translation. Fusion 360 supports translation of over 50 different file types, including .OBJ, .DXF, .DWG, .SLDPRT and .PDF.
+ * 3D Rendering &amp; Visualization - Visualize designs with a variety of rendering tools, environments, effects, ray tracing, and visual styles directly within Fusion 360 with simple drag-and-drop workflows.
+ * 3D Model Viewing - View 2D and 3D files in over 65 formats in Fusion 360 without extra downloads or plug-ins.  Share 3D Models for viewing with people without an account with a direct link at no extra cost.
+ * Sharing &amp; Collaboration - Work by yourself or with others from one central project dashboard. Maintain control of who has access to view, comment, and edit on projects. Theres no limit to how many people you can invite to your projects.
+ * Data Management  Store and manage all design data from one central dashboard with automatic version controls. Easily find components embedded in complex design files and data archives using an integrated search engine.
+ * Mobile Access - Access projects from your mobile device to view designs, see the latest updates, review with your team, and post comments. Get the Free Autodesk 360 app now for your iOS device.
+ * 2.5 Axis Machining  Prepare your designs for machining with an integrated CAM tool with 2D and 3D milling using CNC machines.
+
+Subscription options (as of November 2014):
+-------------------------------------------
+ * $39.99 per Month
+ * $299.99 Annually
+ * Free for students, educators, startups, and personal users
+
+Free Period:
+
+All users will get a free 30-day period to try Fusion 360. At the end of your free 30-day period, Fusion 360 will give you the option to continue with a subscription that works for you, either monthly or annually. Manage your subscriptions in-app or at https://manage.autodesk.com/
+
+Support:
+--------
+Contact us with any questions via email or by visiting our forums.
+
+Email: support.fusion360@autodesk.com
+
+Forums: http://fusion360.autodesk.com/community
     </description>
     <projectUrl>http://fusion360.autodesk.com</projectUrl>
     <tags>autodesk.fusion360 fusion360 surface solid autodesk design cad modeling</tags>
-    <copyright>2013 Autodesk Inc</copyright>
+    <copyright>2014 Autodesk Inc</copyright>
     <licenseUrl>http://usa.autodesk.com/adsk/servlet/index?siteID=123112&amp;id=10235425</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/svelez/chocolatey-packages-owner-svelez/master/autodesk-fusion360/icon_128x128.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/svelez/chocolatey-packages-owner-svelez/master/autodesk-fusion360/icon_128x128.png</iconUrl>
     <dependencies>
-      <dependency id="Chocolatey" version="0.9.8.17"/>
+      <dependency id="Chocolatey" version="0.9.8.20"/>
     </dependencies>
     <releaseNotes>
-	    Updating the package to pull build 2.0.1149
+	    Updating the package to pull build 2.0.1351 and updating description to be more complete and notify users that it is commercial software.
     </releaseNotes>
   </metadata>
   <files>
