@@ -62,6 +62,6 @@ Forums: http://fusion360.autodesk.com/community
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <file src="..\Common\**" target="tools" />
+    <!-- <file src="..\Common\**" target="tools" /> -->
   </files>
 </package>
