@@ -3,7 +3,7 @@
   <metadata>
     <id>autodesk-fusion360</id>
     <title>Autodesk Fusion 360</title>
-    <version>2.0.1351</version>
+    <version>{{PackageVersion}}</version>
     <authors>Autodesk Inc</authors>
     <owners>Steven Velez</owners>
     <summary>
@@ -57,7 +57,7 @@ Forums: http://fusion360.autodesk.com/community
       <dependency id="Chocolatey" version="0.9.8.20"/>
     </dependencies>
     <releaseNotes>
-	    Updating the package to pull build 2.0.1351 and updating description to be more complete and notify users that it is commercial software.
+	    Updating the package to pull build {{PackageVersion}}.
     </releaseNotes>
   </metadata>
   <files>
