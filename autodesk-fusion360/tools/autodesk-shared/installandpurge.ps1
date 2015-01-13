@@ -1,6 +1,6 @@
 ﻿$url = '' # download url
 $url64 = "https://dl.appstreaming.autodesk.com/production/installers/$($MyInvocation.UnboundArguments[0])%20Downloader.exe"
-$silentArgs = '-gm2 -! --quiet'
+$silentArgs = '--quiet'
 $validExitCodes = @(0) 
 
 $dlfile=$MyInvocation.UnboundArguments[0]

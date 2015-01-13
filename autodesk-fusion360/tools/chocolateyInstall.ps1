@@ -1,5 +1,5 @@
 ﻿# For debugging
-# Import-Module C:\Chocolatey\chocolateyinstall\helpers\chocolateyInstaller.psm1
+#Import-Module C:\ProgramData\Chocolatey\chocolateyinstall\helpers\chocolateyInstaller.psm1
 
 try {
 
