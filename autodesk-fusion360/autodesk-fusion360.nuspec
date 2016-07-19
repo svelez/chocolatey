@@ -54,7 +54,7 @@ Forums: http://fusion360.autodesk.com/community
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/svelez/chocolatey-packages-owner-svelez/master/autodesk-fusion360/icon_128x128.png</iconUrl>
     <dependencies>
-      <dependency id="Chocolatey" version="0.9.8.20"/>
+      <dependency id="Chocolatey" version="0.9.10.3"/>
     </dependencies>
     <releaseNotes>
 	    Updating the package to pull build {{PackageVersion}}.

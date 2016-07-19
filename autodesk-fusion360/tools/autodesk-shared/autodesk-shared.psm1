@@ -20,10 +20,10 @@ function install-autodeskapp($invocation, $pkgname, $downloaderpfx) {
         test_platform 
 
         $dlfile = Join-Path "$(Split-Path $invocation.MyCommand.Definition)" "${pkgname}.exe"
-        Get-ChocolateyWebFile $package "$dlfile" $url -url64bit $url64
+        Get-ChocolateyWebFile $pkgname "$dlfile" $url -url64bit $url64
 
         $psFile = Join-Path $PSScriptRoot 'installandpurge.ps1'
-        Start-ChocolateyProcessAsAdmin "& `'$psFile`' `'$dlfile`' `'$packageName`'" -validExitCodes $validExitCodes
+        Start-ChocolateyProcessAsAdmin "& `'$psFile`' `'$dlfile`' `'$pkgname`'" -validExitCodes $validExitCodes
     } finally {
         if (Test-Path "$dlfile") {
             Remove-Item "$dlfile"
