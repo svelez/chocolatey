@@ -23,9 +23,15 @@ function install-autodeskapp($invocation, $pkgname, $downloaderpfx) {
         Get-ChocolateyWebFile $pkgname "$dlfile" $url -url64bit $url64
 
         $psFile = Join-Path $PSScriptRoot 'installandpurge.ps1'
-        Start-ChocolateyProcessAsAdmin "& `'$psFile`' `'$dlfile`' `'$pkgname`'" -validExitCodes $validExitCodes
+
+        if (!$env:chocolateyInstallArguments) {
+           $env:chocolateyInstallArguments="-g"
+        }
+        $silentArgs = '--quiet'
+        Install-ChocolateyInstallPackage "$pkgname" 'exe' "$silentArgs" "$dlfile" -validExitCodes $validExitCodes
+
     } finally {
-        if (Test-Path "$dlfile") {
+        if ($dlfile.Length -gt 0 -and (Test-Path "$dlfile")) {
             Remove-Item "$dlfile"
         }
     }
@@ -46,8 +52,9 @@ function uninstall-autodeskapp($invocation, $appid) {
         }
 
         $uninstallargs="-g -p uninstall -s $installStream -a ${appid}"
-        $uninstallargs="$silentArgs $uninstallargs"
-        Start-ChocolateyProcessAsAdmin "$uninstallargs" "${res}" -validExitCodes $validExitCodes
+        #$uninstallargs="$silentArgs $uninstallargs"
+        #Start-ChocolateyProcessAsAdmin "$uninstallargs" "${res}" -validExitCodes $validExitCodes
+        & "${res}" -g -p uninstall -s $installStream -a ${appid} --quiet
     } else {
         throw "No installation Found"
     }
