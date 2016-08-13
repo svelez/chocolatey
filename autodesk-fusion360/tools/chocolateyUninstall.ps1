@@ -1,14 +1,5 @@
-﻿# For debugging
-#Import-Module C:\ProgramData\Chocolatey\helpers\chocolateyInstaller.psm1
-
-$packageName = 'autodesk-fusion360'
-
-$tooldir = $(Convert-Path $( Join-Path $MyInvocation.MyCommand.Definition ".."))
-$env:PSModulePath = $env:PSModulePath + ";" + $tooldir
-$commonDir = $(Convert-Path $( Join-Path $tooldir "../../Common") -ErrorAction SilentlyContinue)
-if ("$commonDir" -ne "") {
-    $env:PSModulePath = $env:PSModulePath + ";" + $commondir
-}
-Import-Module autodesk-shared
+﻿$packageName = 'autodesk-fusion360'
+$modulepath = $(Join-Path $(Split-Path -Parent $MyInvocation.MyCommand.Definition) "autodesk-shared")
+Import-Module $modulepath
 
 uninstall-autodeskapp $MyInvocation '73e72ada57b7480280f7a6f4a289729f'

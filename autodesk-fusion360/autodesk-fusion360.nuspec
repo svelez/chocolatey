@@ -53,11 +53,14 @@ Forums: http://fusion360.autodesk.com/community
     <licenseUrl>http://usa.autodesk.com/adsk/servlet/index?siteID=123112&amp;id=10235425</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/svelez/chocolatey-packages-owner-svelez/master/autodesk-fusion360/icon_128x128.png</iconUrl>
+    <packageSourceUrl>https://github.com/svelez/chocolatey-packages-owner-svelez/</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/svelez/chocolatey-packages-owner-svelez/issues</bugTrackerUrl>
     <dependencies>
       <dependency id="Chocolatey" version="0.9.10.3"/>
     </dependencies>
     <releaseNotes>
 	    Updating the package to pull build {{PackageVersion}}.
+        Fixing failure to perform install regression in script.
     </releaseNotes>
   </metadata>
   <files>
