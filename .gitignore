@@ -2,3 +2,6 @@ _output
 *.nupkg
 *~
 *.swp
+
+/api_key
+/update_info.xml
