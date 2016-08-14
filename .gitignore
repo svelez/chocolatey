@@ -5,3 +5,4 @@ _output
 
 /api_key
 /update_info.xml
+/update_vars.ps1
