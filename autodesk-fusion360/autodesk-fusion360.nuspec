@@ -54,7 +54,7 @@ Forums: http://fusion360.autodesk.com/community
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/svelez/chocolatey/master/autodesk-fusion360/icon_128x128.png</iconUrl>
     <packageSourceUrl>https://github.com/svelez/chocolatey/</packageSourceUrl>
-    <bugTrackerUrl>https://github.com/svelez/chocolatey/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://forums.autodesk.com/t5/fusion-360/ct-p/1234</bugTrackerUrl>
     <dependencies>
       <dependency id="Chocolatey" version="0.9.10.3" />
     </dependencies>
