@@ -3,9 +3,9 @@ image: WMF 5
 
 environment:
   #Github credentials - used to save result to gist and to commit pushed packages to the git repository
-  #github_user: svelez
-  #github_pass:
-  #  secure: unset==
+  github_user: svelez
+  github_pass:
+    secure: utE9OCtQMp+weY8Le3Ii2SLDPr579W00NkLQZMG4JafR+tVs+M95KF/QQ8SXnj5w
 
   #Gmail credentials - for error notifications
   mail_user: sbv1976@gmail.com

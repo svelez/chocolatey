@@ -1,6 +1,7 @@
 ﻿param($Name = $null)
 cd $PSScriptRoot
 
+ls _user\*.ps1 | % { . $_ }
 if (Test-Path update_vars.ps1) { . ./update_vars.ps1 }
 
 $options = @{
@@ -17,6 +18,19 @@ $options = @{
             EnableSsl = $true
         }
     } else {}
+
+    Gist_ID = $env:Gist_ID
+
+    Script = {
+        param($Phase, $Info)
+
+        if ($Phase -ne 'END') { return }
+
+        #Save-RunInfo
+        #Save-Gist
+        Save-Git
+    }
+
 }
 
 Update-AUPackages -Name $Name -Options $options | Export-CliXML update_info.xml
