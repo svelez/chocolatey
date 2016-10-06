@@ -28,7 +28,7 @@ install:
     "machine github.com", "login $Env:github_user", "password $Env:github_pass" | Out-File ~/_netrc -Encoding ascii
     Install-PackageProvider -Name NuGet -Force
     Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
-    Install-Module au -Scope CurrentUser
+    Install-Module au -Scope CurrentUser -RequiredVersion 2016.9.21
     Get-Module au -ListAvailable | select Name, Version
 build_script:
 - ps: |
