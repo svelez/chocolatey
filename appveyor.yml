@@ -16,7 +16,7 @@ environment:
   au_push: false
 
   # Github token to commit pushed packages to repository
-  github_user_repo: {github_user}/{repository}
+  github_user_repo: svelez/chocolatey
   github_api_key:
     secure: DCIgFrIAroQeuaftDRilNY2v2uIVPL6SEnV1VfH9t7UqzTPOBfhWqAab9/k8t2qU
 
