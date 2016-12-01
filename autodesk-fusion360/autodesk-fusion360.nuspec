@@ -29,15 +29,19 @@ Features
  * Mobile Access - Access projects from your mobile device to view designs, see the latest updates, review with your team, and post comments. Get the Free Autodesk 360 app now for your iOS device.
  * 2.5 Axis Machining  Prepare your designs for machining with an integrated CAM tool with 2D and 3D milling using CNC machines.
 
-Subscription options (as of November 2014):
+Subscription options (as of November 2016):
 -------------------------------------------
- * $39.99 per Month
- * $299.99 Annually
- * Free for students, educators, startups, and personal users
+ * $40 per Month for the standard tier
+ * $300 Annually for the standard tier
+ * $190 per Month for the Ultimate tier
+ * $1500 Annually for the Ultimate tier
+ * Ultimate tier is free for students, educators, startups making less than $100k yearly, and hobbyists
 
 Free Period:
 
 All users will get a free 30-day period to try Fusion 360. At the end of your free 30-day period, Fusion 360 will give you the option to continue with a subscription that works for you, either monthly or annually. Manage your subscriptions in-app or at https://manage.autodesk.com/
+
+For plan details, see: http://www.autodesk.com/products/fusion-360/subscribe
 
 Support:
 --------
@@ -60,6 +64,7 @@ Forums: http://fusion360.autodesk.com/community
     </dependencies>
     <releaseNotes>
 	    Updating the package to pull build 2.0.2539.
+        For more information, see: http://autode.sk/whatsnew
     </releaseNotes>
   </metadata>
   <files>
