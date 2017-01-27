@@ -3,20 +3,20 @@
   <metadata>
     <id>autodesk-fusion360</id>
     <title>Autodesk Fusion 360</title>
-    <version>2.0.2676</version>
+    <version>2.0.2681</version>
     <authors>Autodesk Inc</authors>
     <owners>Steven Velez</owners>
     <summary>
 	    Flexible, connected Computer Aided Design tool.
     </summary>
     <description>
-AutodeskÃ‚Â® Fusion 360Ã‚â„¢ is a professional 3D CAD/CAM solution for product designers and engineers. With Fusion 360 youÃ‚â€™ll have everything you need to bring product to life, from conceptual design, detailed engineering, machining, built-in sharing, automated versioning, and much more.  Try Fusion 360 free for 30-days.
+AutodeskÃƒâ€šÃ‚Â® Fusion 360Ãƒâ€šÃ¢â€žÂ¢ is a professional 3D CAD/CAM solution for product designers and engineers. With Fusion 360 youÃƒâ€šÃ¢â‚¬â„¢ll have everything you need to bring product to life, from conceptual design, detailed engineering, machining, built-in sharing, automated versioning, and much more.  Try Fusion 360 free for 30-days.
 
 Features
 --------
  * Conceptual Design - Explore design ideas and create organic shapes with T-Splines push-pull commands.
- * 3D Surface &amp; Solid Modeling Ã‚â€“ Create functional models with flexible real-time direct solid modeling and feature-based solid modeling complete with assembly tools.
- * History Based Modeling Ã‚â€“ Track and make changes to your design using your design timeline, as edits are made the model automatically updates to reflect the changes.
+ * 3D Surface &amp; Solid Modeling Ãƒâ€šÃ¢â‚¬â€œ Create functional models with flexible real-time direct solid modeling and feature-based solid modeling complete with assembly tools.
+ * History Based Modeling Ãƒâ€šÃ¢â‚¬â€œ Track and make changes to your design using your design timeline, as edits are made the model automatically updates to reflect the changes.
  * Model from Scanned Designs - Import OBJ or STL bodies as mesh models and easily create custom designs with object snapping to the mesh surface.
  * 3D Printing - Prepare your designs for 3D printing with Autodesk Meshmixer within Fusion 360. Preview the mesh structure, make pre-print refinements, and never use another 3D print utility again.
  * Assembly &amp; Motion Studies - Assemble components. Create relationships, animate &amp; simulate motion, and review the fit and function of your design.
@@ -24,10 +24,10 @@ Features
  * File Translation, Import &amp; Export - Import and export design files with unlimited CAD translation. Fusion 360 supports translation of over 50 different file types, including .OBJ, .DXF, .DWG, .SLDPRT and .PDF.
  * 3D Rendering &amp; Visualization - Visualize designs with a variety of rendering tools, environments, effects, ray tracing, and visual styles directly within Fusion 360 with simple drag-and-drop workflows.
  * 3D Model Viewing - View 2D and 3D files in over 65 formats in Fusion 360 without extra downloads or plug-ins.  Share 3D Models for viewing with people without an account with a direct link at no extra cost.
- * Sharing &amp; Collaboration - Work by yourself or with others from one central project dashboard. Maintain control of who has access to view, comment, and edit on projects. ThereÃ‚â€™s no limit to how many people you can invite to your projects.
- * Data Management Ã‚â€“ Store and manage all design data from one central dashboard with automatic version controls. Easily find components embedded in complex design files and data archives using an integrated search engine.
+ * Sharing &amp; Collaboration - Work by yourself or with others from one central project dashboard. Maintain control of who has access to view, comment, and edit on projects. ThereÃƒâ€šÃ¢â‚¬â„¢s no limit to how many people you can invite to your projects.
+ * Data Management Ãƒâ€šÃ¢â‚¬â€œ Store and manage all design data from one central dashboard with automatic version controls. Easily find components embedded in complex design files and data archives using an integrated search engine.
  * Mobile Access - Access projects from your mobile device to view designs, see the latest updates, review with your team, and post comments. Get the Free Autodesk 360 app now for your iOS device.
- * 2.5 Axis Machining Ã‚â€“ Prepare your designs for machining with an integrated CAM tool with 2D and 3D milling using CNC machines.
+ * 2.5 Axis Machining Ãƒâ€šÃ¢â‚¬â€œ Prepare your designs for machining with an integrated CAM tool with 2D and 3D milling using CNC machines.
 
 Subscription options (as of November 2016):
 -------------------------------------------
@@ -63,7 +63,7 @@ Forums: http://fusion360.autodesk.com/community
       <dependency id="Chocolatey" version="0.9.10.3" />
     </dependencies>
     <releaseNotes>
-	    Updating the package to pull build 2.0.2676.
+	    Updating the package to pull build 2.0.2681.
         For more information, see: http://autode.sk/whatsnew
     </releaseNotes>
   </metadata>
