@@ -12,7 +12,7 @@ branches:
 
 environment:
   # Set au version to use or omit to use the latest. Specify branch name to use development version from Github
-  au_version: 2016.11.5
+  au_version: 2018.5.18
   au_push: true
 
   # Github token to commit pushed packages to repository
