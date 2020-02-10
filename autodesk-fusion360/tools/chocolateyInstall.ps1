@@ -4,7 +4,7 @@ $packageArgs = @{
     packageName              = "autodesk-fusion360"
     SilentArgs               = "--quiet"
     Url64bit                 = "https://dl.appstreaming.autodesk.com/production/installers/Fusion%20360%20Admin%20Install.exe"
-    Checksum64               = "b1f21c19aeb9d400b0cecc138ad73e88759aec5e2d11d082d06adc0fb0fa6db9"
+    Checksum64               = "4cb68beb5da645c901794bb68dd3d1617ef9502d8c5ebd0370b904b9f38be6fa"
     ChecksumType64           = "sha256"
 }
 
