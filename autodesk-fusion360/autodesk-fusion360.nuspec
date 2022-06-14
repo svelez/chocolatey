@@ -54,7 +54,7 @@ Email: support.fusion360@autodesk.com
     <copyright>2014 Autodesk Inc</copyright>
     <licenseUrl>http://usa.autodesk.com/adsk/servlet/index?siteID=123112&amp;id=10235425</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/svelez/chocolatey/master/autodesk-fusion360/icon_128x128.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/svelez/chocolatey@c5ce91ae87f1cf1e20dcbd0484e82933434d36c7/autodesk-fusion360/icon_256x256.png</iconUrl>
     <packageSourceUrl>https://github.com/svelez/chocolatey/</packageSourceUrl>
     <bugTrackerUrl>https://forums.autodesk.com/t5/fusion-360/ct-p/1234</bugTrackerUrl>
     <dependencies>
