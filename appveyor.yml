@@ -18,7 +18,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: svelez/chocolatey
   github_api_key:
-    secure: 2Pph5obLT9IIQcW2uMgVlJExGRVbtD0bQ5MCCwgHuegM1eKRDyQLQzW4WuuEN3GC
+    secure: WwJ9cB0nqmM6sW1iDErOUfwD4uAWydX6jUkWjZk3egrHr+Fq9hNFxU1MYaqCC8o9
 
   # Mail credentials - for error notifications
   mail_user:
