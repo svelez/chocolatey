@@ -3,7 +3,7 @@
   <metadata>
     <id>autodesk-fusion360</id>
     <title>Autodesk Fusion 360</title>
-    <version>2.0.19215</version>
+    <version>2.0.19426</version>
     <authors>Autodesk Inc</authors>
     <owners>Steven Velez</owners>
     <summary>
@@ -53,7 +53,7 @@ Contact us with any questions via email or by visiting our forums.
       <!-- <dependency id="Chocolatey" version="0.9.10.3" /> -->
     </dependencies>
     <releaseNotes>
-	    Updating the package to pull build 2.0.19215.
+	    Updating the package to pull build 2.0.19426.
         For more information, see: http://autode.sk/whatsnew
     </releaseNotes>
   </metadata>
