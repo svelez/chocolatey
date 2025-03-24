@@ -21,6 +21,8 @@ environment:
     secure: GxFO3/5Dirgs/DJJm/3rNPB2LQnu54IYG4IaxFaVK8Os+49g2mL4CVrzBLM2OVwQ
 
   # Mail credentials - for error notifications
+  mail_recipient:
+    secure: E7Qw0zL2RgKNfE1pluYsDvP+iqTk2ByNbLQFIN0Fx2A= #https://ci.appveyor.com/tools/encrypt
   mail_user:
     secure: uxgPLpIyfEP1HDCJ0/h1bJ8EKyYHjX4EWbj1hkAlB6s= #https://ci.appveyor.com/tools/encrypt
   mail_pass:
